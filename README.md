@@ -1,6 +1,5 @@
-#include<stdio.h>
-int main(){
-
+     #include<stdio.h>
+     int main{
     int n,t,i,temp;float rs;char name[12],movie;
     
     char id,date;
@@ -81,29 +80,22 @@ int main(){
         }
         else{
             printf("Database problem\n");
-
- }
-  printf("Date:%d:12:2023\n",date);
- rs=(1 + n)*150;
- printf("Amount of Rs:%f\n",rs);
- if(t==1){
+            }
+    printf("Date:%d:12:2023\n",date);
+    rs=(1 + n)*150;
+    printf("Amount of Rs:%f\n",rs);
+    if(t==1){
      printf("Time is:10:30\n");
-     
- }
- 
- else if(t==2){
+     }
+    else if(t==2){
      printf("Time is:1:30\n");
-     
- }
- else if(t==3){
+     }
+    else if(t==3){
      printf("Time is:3:30\n");
-     
- }
- else{
+     }
+    else{
      printf("Time is:7:00\n\n\n");
-     
- }
- printf("~Thanking you for entering into the server\n");
- return 0;
-    
-}
+     }
+     printf("~Thanking you for entering into the server\n");
+    return 0;
+    }
